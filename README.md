@@ -1,4 +1,4 @@
-1 # UM Clone do app Club House
+1 # Um Clone do app Club House
 
 ## Demonstration
 <img src="https://macmagazine.com.br/wp-content/uploads/2021/02/08-clubhouse-623x1260.png" alt="exemplo"> 
