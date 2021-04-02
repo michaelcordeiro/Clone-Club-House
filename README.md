@@ -7,8 +7,8 @@
 * [ ] HTML
 * [ ] TailwindCSS
 
-## Recomendação
-* Abrir em tamanho mobile para melhor experiência
+## Recommendations
+* Open in mobile size for better experience
 
 ## Author
 
