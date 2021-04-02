@@ -38,10 +38,15 @@
         display: block;
         display: hidden;
       }
+
+      main > div {
+        align-items: center;
+        justify-items: center;
+      }
     </style>
   </head>
-  <body class="h-screen flex flex-col bg-yellow-50">
-    <div class="w-screen bg-yellow-50 p-4">
+  <body class=" m-auto h-screen flex flex-col bg-yellow-50 sm:max-w-md">
+    <div class="w-full bg-yellow-50 p-4">
       <header class="w-full flex justify-between">
         <div class="flex items-center text-lg">
           <span class="mr-1"
@@ -124,27 +129,15 @@
       <p>Lorem</p><p>Lorem</p><p>Lorem</p>
       <p>Lorem</p><p>Lorem</p><p>Lorem</p>
       <p>Lorem</p><p>Lorem</p><p>Lorem</p>
-      <p>Lorem</p><p>Lorem</p><p>Lorem</p>
-      <p>Lorem</p><p>Lorem</p><p>Lorem</p>
-      <p>Lorem</p><p>Lorem</p><p>Lorem</p>
-      <p>Lorem</p><p>Lorem</p><p>Lorem</p>
-      <p>Lorem</p><p>Lorem</p><p>Lorem</p>
-      <p>Lorem</p><p>Lorem</p><p>Lorem</p>
-      <p>Lorem</p><p>Lorem</p><p>Lorem</p>
-      <p>Lorem</p><p>Lorem</p><p>Lorem</p>
-      <p>Lorem</p><p>Lorem</p><p>Lorem</p>
-      <p>Lorem</p><p>Lorem</p><p>Lorem</p>
-      <p>Lorem</p><p>Lorem</p><p>Lorem</p>
-      
     </div>
 
     </main>
 
     <footer class="
     fixed bottom-0
-    m-auto p-3 flex items-center justify-between w-full bg-white">
+    m-auto p-3 flex items-center justify-between sm:max-w-md w-full bg-white">
 
-      <button class="rounded-full bg-gray-100 py-1.5 px-4 flex items-center">
+      <button class="rounded-full bg-gray-200 py-1.5 px-4 flex items-center">
         <span>✌️</span>
         <span class="text-red-400 ml-2 text-xs">Leave quietly</span> 
       </button>
